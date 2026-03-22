@@ -1,4 +1,8 @@
-# Shop
+# Shop-Angular
+
+Prosty sklep internetowy napisany w Angularze. Celem projektu jest pwotórzenie sobie Angulara, Z tego względu wykorzystano gotowe API dla testowego sklepu internetowego [Fake store API](https://fakestoreapi.com/)
+
+# Dokumentacja od Angular
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.19.
 
