@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ComponentsModule } from '../../components/components.module';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -9,4 +10,7 @@ import { ComponentsModule } from '../../components/components.module';
 })
 export class HeaderComponent {
 
+  protected handleSettings(){
+    console.log('AA');
+  }
 }

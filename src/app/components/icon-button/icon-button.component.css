@@ -1,0 +1,15 @@
+.icon-button{
+    background-color: transparent;
+    border: none;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.icon-button:hover{
+    cursor: pointer;
+    background-color: var(--hover-background-color);
+}
+
+.icon-button:active{
+    background-color: var(--active-background-color);
+}

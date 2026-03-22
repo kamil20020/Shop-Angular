@@ -5,6 +5,7 @@ import { HeaderComponent } from './header/header.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
+import { ɵEmptyOutletComponent, RouterLink } from "@angular/router";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { ContentComponent } from './content/content.component';
   imports: [
     CommonModule,
     ComponentsModule,
-  ],
+    ɵEmptyOutletComponent,
+    RouterLink
+],
   exports: [
     HeaderComponent,
     NavigationComponent,

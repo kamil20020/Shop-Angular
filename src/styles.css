@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --primary-background-color: white;
+    --primary-text-color: black;
+    --secondary-background-color: rgb(0, 183, 255);
+    --secondary-text-color: white;
+    --hover-background-color: rgb(0, 118, 164);
+    --active-background-color: rgb(2, 77, 106);
+}
+
+body{
+    margin: 0px;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1{
+    width: auto !important;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+a:active{
+    opacity: 1;
+}

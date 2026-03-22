@@ -1,3 +1,13 @@
 <header>
-    <icon iconName="home"/>
+    <a [routerLink]="['']">
+        <icon iconName="shopping_cart" [size]="36"/>
+        <div class="header-icon">Shop</div>
+    </a>
+    <div class="header-actions">
+        <icon-button
+            iconName="person"
+            [size]="36"
+            (onClick)="this.handleSettings()"
+        />
+    </div>
 </header>
